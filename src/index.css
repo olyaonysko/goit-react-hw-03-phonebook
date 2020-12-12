@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-size: 100%;
-  background-image: url('https://cdn140.picsart.com/293713438013201.jpg?type=webp&to=min&r=640');
+  background-image: url('./img/background.webp');
 }
 
 code {
