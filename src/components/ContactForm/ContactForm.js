@@ -1,4 +1,6 @@
 import { Component } from 'react';
+import { toast } from 'react-toastify';
+
 import s from './ContactForm.module.css';
 
 export default class ContactForm extends Component {
@@ -16,12 +18,12 @@ export default class ContactForm extends Component {
     event.preventDefault();
     const { name, number } = this.state;
     if (!name || !number) {
-      alert('All fields must be filled!');
+      toast.info('👺 All fields must be filled!');
       return;
     }
 
     if (Number.isNaN(+number)) {
-      alert('Telephone number must be numeric!');
+      toast.info('👺 Telephone number must be numeric!');
       return;
     }
 

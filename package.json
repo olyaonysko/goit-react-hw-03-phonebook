@@ -2,7 +2,7 @@
   "name": "goit-react-hw-03-phonebook",
   "version": "0.1.0",
   "private": true,
-    "homepage": "https://olyaonysko.github.io/goit-react-hw-03-phonebook",
+  "homepage": "https://olyaonysko.github.io/goit-react-hw-03-phonebook",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
@@ -12,6 +12,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "react-toastify": "^6.2.0",
     "shortid": "^2.2.16",
     "web-vitals": "^0.2.4"
   },
