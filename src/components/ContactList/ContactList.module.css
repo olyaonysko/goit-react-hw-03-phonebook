@@ -1,0 +1,37 @@
+h2 {
+  text-align: center;
+}
+
+.list {
+  padding: 0px;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  font-style: italic;
+  padding: 6px;
+  margin-bottom: 10px;
+  background-color: #967bb6;
+  border-radius: 5px;
+}
+
+.button {
+  cursor: pointer;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-right: 5px;
+  color: black;
+  background: white;
+  transition: all 0.2s linear;
+}
+
+.button:hover {
+  background: #f3a3f0;
+  transform: scale(1.2);
+}

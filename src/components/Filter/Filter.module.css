@@ -1,0 +1,25 @@
+h2 {
+  font-size: 25px;
+}
+
+.label {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.input {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: 30px;
+  margin-bottom: 20px;
+  border: 1px solid #967bb6;
+  border-radius: 5px;
+}
+
+.input::placeholder {
+  font-size: 18px;
+  font-style: italic;
+}
